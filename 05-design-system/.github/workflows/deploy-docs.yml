@@ -3,7 +3,7 @@ name: Deploy docs
 on:
   push:
     branches:
-      - main
+      - origin/main
 
 jobs:
   build-and-deploy:
