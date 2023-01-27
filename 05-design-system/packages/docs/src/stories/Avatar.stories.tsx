@@ -7,6 +7,13 @@ export default {
   args: {
     src: 'https://github.com/Wallysson.png',
     alt: 'Wallysson'
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
   }
 } as Meta<AvatarProps>
 
